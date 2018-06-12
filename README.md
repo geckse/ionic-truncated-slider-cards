@@ -1,7 +1,7 @@
 # Ionic Slider (component) for a Truncated Horizontal Slider
 
 I wanted to create something like you can see in the App-Screen below.
-Somehow, horizontal slider with cards come quite popular and are yet easy to create with Ionic. 
+Somehow, horizontal slider with cards became quite popular and are yet easy to create with Ionic. 
 We don't even need a new component though.
 
 ![UI-Example by UISTAR](/src/assets/imgs/BWf8VYDgTfZ_by_UISTAR.png)
