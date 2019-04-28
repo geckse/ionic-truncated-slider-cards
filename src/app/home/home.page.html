@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Truncated Slider
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <h1 class="ion-padding-horizontal ion-padding-top">Hey You 👋,</h1>
+
+    <!-- options in home.page.ts defining the visible amount of slides -->
+    <ion-slides [options]="slideOptsTop">
+      <ion-slide>
+        <ion-card class="ion-text-start">
+          <img src="https://placem.at/people?overlay_color=eb7a85&w=600&h=290">
+          <ion-card-header>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+            <ion-card-title>Card Title</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card class="ion-text-start">
+          <img src="https://placem.at/places?overlay_color=3afbec&w=600&h=290">
+          <ion-card-header>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+            <ion-card-title>Card Title</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card class="ion-text-start">
+          <img src="https://placem.at/things?overlay_color=bf27f9&w=600&h=290">
+          <ion-card-header>
+            <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+            <ion-card-title>Card Title</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+
+    <h4 class="ion-padding-horizontal">Popular other Cards</h4>
+
+    <!-- this is a more narrow, thumb'isch card slider -->
+    <ion-slides [options]="slideOptsThumbs">
+      <ion-slide>
+        <ion-card class="ion-text-start">
+          <img src="https://placem.at/people?overlay_color=feb75a&w=500&h=300">
+          <ion-card-content>
+            Card Info
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card class="ion-text-start">
+          <img src="https://placem.at/places?overlay_color=bec3af&w=500&h=300">
+          <ion-card-content>
+            Card Info
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card class="ion-text-start">
+          <img src="https://placem.at/things?overlay_color=7f9bf2&w=500&h=300">
+          <ion-card-content>
+            Card Info
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+
+</ion-content>
